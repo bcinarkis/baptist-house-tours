@@ -1,1 +1,245 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Baptist House | Jerusalem</title><style>body{margin:0;font-family:Arial,sans-serif;background:#f7f1e6;color:#272822;line-height:1.7}.hero{text-align:center;padding:90px 20px;background:#173f35;color:white}.hero h1{font:clamp(3rem,9vw,6rem)/1 Georgia,serif}.btn{display:inline-block;background:#b68a4a;color:#152c25;text-decoration:none;font-weight:bold;padding:14px 24px;border-radius:30px}.tag{margin:20px}.wrap{max-width:850px;margin:auto;padding:60px 24px}.card{background:white;padding:32px;border-radius:16px}.visit{text-align:center;background:#e8dfcf;padding:60px 24px}.lang{position:absolute;top:20px;right:20px}.lang button{padding:8px 12px;margin:3px;border-radius:20px;border:1px solid white;background:transparent;color:white}.lang .active{background:white;color:#173f35}[dir=rtl] .lang{right:auto;left:20px}footer{text-align:center;padding:20px;background:#173f35;color:white}</style></head><body><div class="lang"><button id="en" class="active">English</button><button id="he">עברית</button></div><section class="hero"><div data-en="Jerusalem" data-he="ירושלים">Jerusalem</div><h1 data-en="The Baptist House" data-he="בית הבפטיסטים">The Baptist House</h1><p data-en="A historic home of Baptist ministry in Jerusalem" data-he="בית היסטורי של שירות בפטיסטי בירושלים">A historic home of Baptist ministry in Jerusalem</p><div class="tag" data-en="Tours every Friday at 11:00 AM" data-he="הסיורים מתקיימים בכל יום שישי בשעה 11:00">Tours every Friday at 11:00 AM</div><a class="btn" href="https://forms.gle/UGXdwKtr7cRMVY1m6" data-en="RSVP FOR A TOUR" data-he="הרשמה לסיור">RSVP FOR A TOUR</a></section><main class="wrap"><div class="card"><h2 data-en="A Brief History" data-he="היסטוריה בקצרה">A Brief History</h2><p data-en="The Baptist House has a long history of Christian ministry, fellowship, and service in Jerusalem." data-he="לבית הבפטיסטים היסטוריה ארוכה של שירות נוצרי, אחווה ופעילות בירושלים.">The Baptist House has a long history of Christian ministry, fellowship, and service in Jerusalem.</p><p data-en="Its story reaches back to <strong>1925</strong>, when a small group of Jews, Arabs, and expatriates organized a Baptist church in Jerusalem during the <strong>British Mandate</strong>." data-he="סיפורו מתחיל בשנת <strong>1925</strong>, כאשר קבוצה קטנה של יהודים, ערבים ותושבים זרים הקימה קהילה בפטיסטית בירושלים בתקופת <strong>המנדט הבריטי</strong>.">Its story reaches back to <strong>1925</strong>, when a small group of Jews, Arabs, and expatriates organized a Baptist church in Jerusalem during the <strong>British Mandate</strong>.</p><p data-en="Over the years, the Baptist House has continued to serve as a place where people from different backgrounds come together for worship, ministry, fellowship, and service." data-he="במהלך השנים המשיך בית הבפטיסטים לשמש מקום שבו אנשים מרקעים שונים מתכנסים לתפילה, שירות, אחווה ועשייה משותפת.">Over the years, the Baptist House has continued to serve as a place where people from different backgrounds come together for worship, ministry, fellowship, and service.</p><p data-en="Today, <strong>five different congregations gather at the Baptist House</strong>." data-he="כיום, <strong>חמש קהילות שונות מתכנסות בבית הבפטיסטים</strong>.">Today, <strong>five different congregations gather at the Baptist House</strong>.</p></div></main><section class="visit"><h2 data-en="Come Visit" data-he="בואו לבקר">Come Visit</h2><p data-en="Tours are offered every Friday at 11:00 AM. Select your Friday when you RSVP." data-he="הסיורים מתקיימים בכל יום שישי בשעה 11:00. בחרו את יום השישי הרצוי בעת ההרשמה.">Tours are offered every Friday at 11:00 AM. Select your Friday when you RSVP.</p><p><strong data-en="Baptist House<br>4 Narkis Street<br>Jerusalem" data-he="בית הבפטיסטים<br>רחוב נרקיס 4<br>ירושלים">Baptist House<br>4 Narkis Street<br>Jerusalem</strong></p><a class="btn" href="https://forms.gle/UGXdwKtr7cRMVY1m6" data-en="RSVP FOR A TOUR →" data-he="הרשמה לסיור ←">RSVP FOR A TOUR →</a></section><footer data-en="Baptist House · Jerusalem" data-he="בית הבפטיסטים · ירושלים">Baptist House · Jerusalem</footer><script>function setLang(l){document.documentElement.lang=l;document.documentElement.dir=l==='he'?'rtl':'ltr';document.querySelectorAll('[data-en]').forEach(function(x){x.innerHTML=x.getAttribute('data-'+l)});document.getElementById('en').classList.toggle('active',l==='en');document.getElementById('he').classList.toggle('active',l==='he')}document.getElementById('en').onclick=function(){setLang('en')};document.getElementById('he').onclick=function(){setLang('he')};</script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Baptist House | Jerusalem</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f1e6;
+  color: #272822;
+  line-height: 1.7;
+}
+
+.hero {
+  text-align: center;
+  padding: 90px 20px;
+  background: #173f35;
+  color: white;
+}
+
+.hero h1 {
+  font: clamp(3rem, 9vw, 6rem)/1 Georgia, serif;
+}
+
+.btn {
+  display: inline-block;
+  background: #b68a4a;
+  color: #152c25;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 14px 24px;
+  border-radius: 30px;
+}
+
+.tag {
+  margin: 20px;
+}
+
+.wrap {
+  max-width: 850px;
+  margin: auto;
+  padding: 60px 24px;
+}
+
+.card {
+  background: white;
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.visit {
+  text-align: center;
+  background: #e8dfcf;
+  padding: 60px 24px;
+}
+
+.lang {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.lang button {
+  padding: 8px 12px;
+  margin: 3px;
+  border-radius: 20px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.lang .active {
+  background: white;
+  color: #173f35;
+}
+
+[dir="rtl"] .lang {
+  right: auto;
+  left: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #173f35;
+  color: white;
+}
+</style>
+</head>
+
+<body>
+
+<div class="lang">
+  <button id="en" class="active">English</button>
+  <button id="he">עברית</button>
+</div>
+
+<section class="hero">
+
+  <div data-en="Jerusalem" data-he="ירושלים">
+    Jerusalem
+  </div>
+
+  <h1 data-en="The Baptist House" data-he="בית הבפטיסטים">
+    The Baptist House
+  </h1>
+
+  <p
+    data-en="A historic home of Baptist ministry in Jerusalem"
+    data-he="בית היסטורי של שירות בפטיסטי בירושלים">
+    A historic home of Baptist ministry in Jerusalem
+  </p>
+
+  <div
+    class="tag"
+    data-en="Tours every Friday at 11:00 AM"
+    data-he="הסיורים מתקיימים בכל יום שישי בשעה 11:00">
+    Tours every Friday at 11:00 AM
+  </div>
+
+  <a
+    class="btn"
+    href="https://forms.gle/UGXdwKtr7cRMVY1m6"
+    data-en="RSVP FOR A TOUR"
+    data-he="הרשמה לסיור">
+    RSVP FOR A TOUR
+  </a>
+
+</section>
+
+<main class="wrap">
+
+<div class="card">
+
+  <h2 data-en="A Brief History" data-he="היסטוריה בקצרה">
+    A Brief History
+  </h2>
+
+  <p
+    data-en="The Baptist House has a long history of Christian ministry, fellowship, and service in Jerusalem."
+    data-he="לבית הבפטיסטים היסטוריה ארוכה של שירות נוצרי, אחווה ופעילות בירושלים.">
+    The Baptist House has a long history of Christian ministry,
+    fellowship, and service in Jerusalem.
+  </p>
+
+  <p
+    data-en="Its story reaches back to <strong>1925</strong>, when a small group of Jews, Arabs, and expatriates organized a Baptist church in Jerusalem during the <strong>British Mandate</strong>."
+    data-he="סיפורו מתחיל בשנת <strong>1925</strong>, כאשר קבוצה קטנה של יהודים, ערבים ותושבים זרים הקימה קהילה בפטיסטית בירושלים בתקופת <strong>המנדט הבריטי</strong>.">
+    Its story reaches back to <strong>1925</strong>, when a small group
+    of Jews, Arabs, and expatriates organized a Baptist church in
+    Jerusalem during the <strong>British Mandate</strong>.
+  </p>
+
+  <p
+    data-en="Over the years, the Baptist House has continued to serve as a place where people from different backgrounds come together for worship, ministry, fellowship, and service."
+    data-he="במהלך השנים המשיך בית הבפטיסטים לשמש מקום שבו אנשים מרקעים שונים מתכנסים לתפילה, שירות, אחווה ועשייה משותפת.">
+    Over the years, the Baptist House has continued to serve as a place
+    where people from different backgrounds come together for worship,
+    ministry, fellowship, and service.
+  </p>
+
+  <p
+    data-en="Today, <strong>five different congregations gather at the Baptist House</strong>."
+    data-he="כיום, <strong>חמש קהילות שונות מתכנסות בבית הבפטיסטים</strong>.">
+    Today, <strong>five different congregations gather at the Baptist House</strong>.
+  </p>
+
+</div>
+
+</main>
+
+<section class="visit">
+
+  <h2 data-en="Come Visit" data-he="בואו לבקר">
+    Come Visit
+  </h2>
+
+  <p
+    data-en="Tours are offered every Friday at 11:00 AM. Select your Friday when you RSVP."
+    data-he="הסיורים מתקיימים בכל יום שישי בשעה 11:00. בחרו את יום השישי הרצוי בעת ההרשמה.">
+    Tours are offered every Friday at 11:00 AM. Select your Friday when you RSVP.
+  </p>
+
+  <p>
+    <strong
+      data-en="Baptist House<br>4 Narkis Street<br>Jerusalem"
+      data-he="בית הבפטיסטים<br>רחוב נרקיס 4<br>ירושלים">
+      Baptist House<br>
+      4 Narkis Street<br>
+      Jerusalem
+    </strong>
+  </p>
+
+  <a
+    class="btn"
+    href="https://forms.gle/UGXdwKtr7cRMVY1m6"
+    data-en="RSVP FOR A TOUR →"
+    data-he="הרשמה לסיור ←">
+    RSVP FOR A TOUR →
+  </a>
+
+</section>
+
+<footer
+  data-en="Baptist House · Jerusalem"
+  data-he="בית הבפטיסטים · ירושלים">
+  Baptist House · Jerusalem
+</footer>
+
+<script>
+function setLang(language) {
+  document.documentElement.lang = language;
+  document.documentElement.dir = language === 'he' ? 'rtl' : 'ltr';
+
+  document.querySelectorAll('[data-en]').forEach(function(element) {
+    element.innerHTML = element.getAttribute('data-' + language);
+  });
+
+  document.getElementById('en').classList.toggle(
+    'active',
+    language === 'en'
+  );
+
+  document.getElementById('he').classList.toggle(
+    'active',
+    language === 'he'
+  );
+}
+
+document.getElementById('en').addEventListener('click', function() {
+  setLang('en');
+});
+
+document.getElementById('he').addEventListener('click', function() {
+  setLang('he');
+});
+</script>
+
+</body>
+</html>
